@@ -1,0 +1,52 @@
+  885  mkdir git-majonez
+   886  cd git-majonez
+   887  git init
+   888  ls -a
+   889  vim main.cpp
+   890  git add main.cpp
+   891  git commit -m "Initial commit"
+   892  vim main.cpp
+   893  git add main.cpp
+   894  git commit -m "Farewell changed"
+   895  git log --oneline
+   896  git remote add origin https://github.com/ivanpeu28-sudo/git-majonez.git
+   897  git push -u origin main
+   898  git branch
+   899  git push -u origin master
+   900  git switch -c cs
+   901  git reset --hard
+   902  git branch
+   903  git log
+   904  git reset --hard HEAD~1
+   905  git log
+   906  git log --oneline
+   907  git branch
+   908  git reflog
+   909  vim main.cpp
+   910  git add main.cpp
+   911  git commit -m "Greetings"
+   912  git push origin cs
+   913  git switch master
+   914  git merge cs
+   915  vim main.cpp
+   916  git add main.cpp
+   917  hit commit
+   918  git commit
+   919  history
+   920  history -n +885 > history.txt
+   921  git add history.txt
+   922  git commit -m"History added"
+   923  git push
+   924  clear
+   925  ls
+   926  git-majonez/
+   927  cd git-majonez/
+   928  ls
+   929  vim history.txt
+   930  history -n +885 > history.txt
+   931  vim history.txt
+   932  history -n +885 >> history.txt
+   933  vim history.txt
+   934  history
+   935  history tail | -n +885 >> history.txt
+   936  history | tail -n +885 >> history.txt
